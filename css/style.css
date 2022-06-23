@@ -1,0 +1,215 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.button {
+  display: inline-block;
+  background-color: #ff2d2d;
+  border-radius: 5px;
+  font-family: "Open Sans";
+  font-size: calc(12px + 6 * ((100vw - 320px) / 929));
+  line-height: 34px;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.button:hover {
+  border: 2px solid #ff0000;
+  color: #ff2d2d;
+  background: none;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.container {
+  width: 79%;
+  margin: 0 auto;
+}
+
+.nav {
+  margin-top: 1.813rem;
+  opacity: 0.8;
+  background-color: #000000;
+  height: auto;
+  margin-bottom: 6.75rem;
+}
+
+.nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav ul li {
+  font-size: calc(10px + 4 * ((100vw - 320px) / 929));
+  padding: 0 1.714em;
+  padding-top: 3.143em;
+  padding-bottom: 2.357em;
+  margin-right: 20px;
+}
+
+.nav ul li a {
+  font-family: "Open Sans";
+  line-height: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.035em;
+  color: #e0e0e0;
+  text-decoration: none;
+}
+
+.nav ul li:hover {
+  background-color: #ff3f40;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+/****************************************
+*****************Hello*****************
+*******************************************/
+.hello {
+  overflow: hidden;
+}
+
+@media (min-width: 1300px) {
+  .hello__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .hello__column {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1;
+            flex: 1 1;
+    padding-right: 110px;
+  }
+
+  .hello__column:last-child {
+    padding: 0;
+  }
+
+  .hello__title {
+    font-family: "Open Sans";
+    font-size: calc(30px + 30 * ((100vw - 320px) / 929));
+    line-height: 72px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    color: #000000;
+  }
+
+  .hello__span {
+    letter-spacing: 0.1em;
+  }
+
+  .hello__text {
+    opacity: 0.7;
+    font-family: "Open Sans";
+    font-size: calc(10px + 6 * ((100vw - 320px) / 929));
+    line-height: 28px;
+    font-weight: 400;
+    color: #000000;
+    padding-right: 25%;
+    margin-top: 2rem;
+    margin-bottom: 3.625rem;
+  }
+
+  .hello__button a {
+    padding: 0.5em 3em;
+  }
+
+  .hello__img img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    max-width: 100%;
+    height: 100%;
+  }
+
+  .hello__img {
+    height: 100%;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+  }
+}
+@media (max-width: 1300px) {
+  .hello__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .hello__column {
+    text-align: center;
+  }
+
+  .hello__column:last-child {
+    margin: 0;
+  }
+
+  .hello__button a {
+    margin-bottom: 2em;
+  }
+}
+.hello__column:last-child {
+  padding: 0;
+}
+
+.hello__title {
+  font-family: "Open Sans";
+  font-size: calc(30px + 30 * ((100vw - 320px) / 929));
+  line-height: 72px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  color: #000000;
+}
+
+.hello__span {
+  letter-spacing: 0.1em;
+}
+
+.hello__text {
+  opacity: 0.7;
+  font-family: "Open Sans";
+  font-size: calc(10px + 6 * ((100vw - 320px) / 929));
+  line-height: 28px;
+  font-weight: 400;
+  color: #000000;
+  margin-top: 2rem;
+  margin-bottom: 3.625rem;
+}
+
+.hello__button a {
+  padding: 0.5em 3em;
+}
+
+.hello__img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-width: 100%;
+  height: 100%;
+}
+
+.hello__img {
+  height: 100%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}
