@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -985,43 +984,9 @@
         -ms-flex-pack: center;
             justify-content: center;
   }
-
-  .menu {
-    position: relative;
-  }
-
-  .menu-toggle {
-    position: absolute;
-    right: 0.5em;
-    border: 0;
-    background-color: transparent;
-    font-size: 3.1em;
-    width: 1em;
-    height: 1em;
-    line-height: 0.4em;
-    overflow: hidden;
-    white-space: nowrap;
-    text-indent: 5em;
-  }
-
-  .menu-toggle::after {
-    position: absolute;
-    top: 0.4em;
-    left: 0.1em;
-    display: block;
-    content: "≡";
-    text-indent: 0;
-  }
-
-  .menu-dropdown {
-    display: none;
-    position: absolute;
-    right: 0;
-    left: 0;
-    margin: 0;
-  }
-
-  .menu.is-open .menu-dropdown {
-    display: block;
+}
+@media (max-width: 609px) {
+  html {
+    width: 609px;
   }
 }
