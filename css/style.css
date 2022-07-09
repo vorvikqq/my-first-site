@@ -624,7 +624,7 @@
   margin-top: 7.778rem;
   opacity: 0.8;
   font-family: "Open Sans";
-  font-size: calc(13px + 29 * ((100vw - 320px) / 929));
+  font-size: calc(18px + 24 * ((100vw - 320px) / 929));
   line-height: 0.571em;
   font-weight: 700;
   letter-spacing: 0.025em;
@@ -1029,6 +1029,10 @@
 
   .flex ul > li + li {
     border-top: 1px dashed #ccc;
+  }
+
+  .form__title {
+    text-align: center;
   }
 }
 @media (min-width: 609px) {

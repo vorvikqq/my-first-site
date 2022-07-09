@@ -567,7 +567,7 @@ $maxWidth: 1249;
 	margin-top: 7.778rem;
 	opacity: 0.8;
 	font-family: 'Open Sans';
-	@include adaptiv-font(42,13);
+	@include adaptiv-font(42,18);
 	line-height: 0.571em;
 	font-weight: 700;
 	letter-spacing: 0.025em;
@@ -935,6 +935,9 @@ $maxWidth: 1249;
 	}
 	.flex ul> li+li{
 		border-top: 1px dashed #ccc;
+	}
+	.form__title{
+		text-align: center;
 	}
 	
 }
