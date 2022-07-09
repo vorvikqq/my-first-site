@@ -104,6 +104,10 @@
     padding: 0;
   }
 
+  .show {
+    display: none;
+  }
+
   .hello__title {
     font-family: "Open Sans";
     font-size: calc(30px + 30 * ((100vw - 320px) / 929));
@@ -998,12 +1002,13 @@
     display: none;
   }
 
-  .show, .hid {
+  .show {
     position: absolute;
     top: 10px;
     right: 15px;
     border: none;
     font-size: 30px;
+    display: block;
   }
 
   .flex {
@@ -1024,5 +1029,10 @@
 
   .flex ul > li + li {
     border-top: 1px dashed #ccc;
+  }
+}
+@media (min-width: 609px) {
+  .show {
+    display: none;
   }
 }

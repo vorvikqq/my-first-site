@@ -101,7 +101,9 @@ $maxWidth: 1249;
 {
 	padding: 0;
 }
-
+.show{
+	display: none;
+}
 
 .hello__title 
 {
@@ -911,12 +913,13 @@ $maxWidth: 1249;
 	.nav{
 		display: none;
 	}
-	.show,.hid {
+	.show {
 		position: absolute;
 		top: 10px;
 		right: 15px;
 		border: none;
 		font-size: 30px;
+		display: block;
 	}
 	
 	.flex{
@@ -934,5 +937,9 @@ $maxWidth: 1249;
 		border-top: 1px dashed #ccc;
 	}
 	
-	
+}
+@media (min-width:609px) {
+	.show{
+		display: none;
+	}
 }
