@@ -20,8 +20,7 @@ $maxWidth: 1249;
 	font-weight: 700;
 	letter-spacing: 0.025em;
 	color: #ffffff;
-	text-decoration: none;
-	
+	text-decoration: none;	
 }
 .button:hover
 {
@@ -906,5 +905,34 @@ $maxWidth: 1249;
 	{
 		width: 609px;
 	}	
+	.header{
+		position: relative;
+	}
+	.nav{
+		display: none;
+	}
+	.show,.hid {
+		position: absolute;
+		top: 10px;
+		right: 15px;
+		border: none;
+		font-size: 30px;
+	}
+	
+	.flex{
+		display: block;
+		// flex-direction: column;
+		width: 100%;
+	}
+	.flex ul{
+
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+	.flex ul> li+li{
+		border-top: 1px dashed #ccc;
+	}
+	
 	
 }
