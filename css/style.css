@@ -1040,6 +1040,8 @@
     top: 9px;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
+    outline: none;
+    border: none;
   }
 
   .show:before, .show:after {
@@ -1051,6 +1053,8 @@
     left: 0;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
+    outline: none;
+    border: none;
   }
 
   .show:before {

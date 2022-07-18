@@ -940,6 +940,7 @@ $maxWidth: 1249;
 		outline: none;
     border: none;
 	}
+	
 	.show span{
         position: absolute;
         background-color: aqua;
@@ -948,6 +949,8 @@ $maxWidth: 1249;
         height: 2px;
         top: 9px;
         transition: all .3s ;
+		outline: none;
+    border: none;
     }
     .show:before,.show:after{
         content: '';
@@ -957,6 +960,8 @@ $maxWidth: 1249;
         height: 2px;
         left: 0;
         transition: all .3s ;
+		outline: none;
+    border: none;
     }
     .show:before{
         top: 0;
