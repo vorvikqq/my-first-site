@@ -868,6 +868,9 @@ $maxWidth: 1249;
 		// width: 100%;
 		// width: 100vw;
 	}
+	.form__title{
+		text-align: center;
+	}
 	.mark__img
 	{
 		flex: 0 0 100%;		
@@ -920,7 +923,48 @@ $maxWidth: 1249;
 		border: none;
 		font-size: 30px;
 		display: block;
+        width: 30px;
+        height: 20px;
+        z-index:3 ;
 	}
+	.show span{
+        position: absolute;
+        background-color: aqua;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        top: 9px;
+        transition: all .3s ;
+    }
+    .show:before,.show:after{
+        content: '';
+        background-color: aqua;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        transition: all .3s ;
+    }
+    .show:before{
+        top: 0;
+    }
+    .show:after{
+        bottom: 0;
+    }
+	.show.active:before{
+        transform: rotate(405deg);
+        top: 9px;
+    }
+    .show.active:after{
+        transform: rotate(315deg);
+        bottom: 9px;
+    }
+    .show.active span{
+        transform: scale(0);
+    }
+    body.lock{
+        overflow: hidden;
+    }
 	
 	.flex{
 		display: block;
