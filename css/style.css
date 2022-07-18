@@ -951,6 +951,7 @@
 
   .form__title {
     text-align: center;
+    line-height: 30px;
   }
 
   .mark__img {
@@ -982,6 +983,11 @@
             justify-content: center;
   }
 }
+@media (max-width: 776px) {
+  .feature-products__column, .form-inp__row {
+    width: 100%;
+  }
+}
 @media (max-width: 652px) {
   .footer-list {
     display: none;
@@ -996,6 +1002,10 @@
 @media (max-width: 609px) {
   html {
     width: 609px;
+  }
+
+  .feature-products__column, .form-inp__row {
+    max-width: 610px;
   }
 
   .header {
@@ -1091,6 +1101,7 @@
 
   .form__title {
     text-align: center;
+    line-height: 30px;
   }
 }
 @media (min-width: 609px) {

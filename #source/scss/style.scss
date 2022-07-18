@@ -870,6 +870,7 @@ $maxWidth: 1249;
 	}
 	.form__title{
 		text-align: center;
+		line-height: 30px
 	}
 	.mark__img
 	{
@@ -893,6 +894,12 @@ $maxWidth: 1249;
 		justify-content: center;
 	}
 }
+@media (max-width:776px) {
+
+	.feature-products__column,.form-inp__row{
+		width: 100%;
+	}
+}
 @media (max-width:652px)
 {
 	.footer-list
@@ -910,6 +917,9 @@ $maxWidth: 1249;
 	{
 		width: 609px;
 	}	
+	.feature-products__column,.form-inp__row{
+		max-width: 610px;
+	}
 	.header{
 		position: relative;
 	}
@@ -982,6 +992,7 @@ $maxWidth: 1249;
 	}
 	.form__title{
 		text-align: center;
+		line-height: 30px
 	}
 	
 }
